@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Optional: to see the canvas boundaries clearly */
+}
+
+canvas {
+    border: 1px solid black;
+    display: block; /* Removes extra space below the canvas */
+    width: 80vw;
+    height: 80vh;
+}
